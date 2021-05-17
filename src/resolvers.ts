@@ -4,8 +4,6 @@ interface Person {
   mass: string
   gender: string
   homeworld: string
-  created_at: string
-  updated_at: string
 }
 
 const getPeople = async (parent:any, args:any, context:any, info:any): Promise<Person> => {
